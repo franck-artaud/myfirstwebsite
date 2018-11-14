@@ -271,3 +271,117 @@ btn-tour:active,
     line-height: 28px;
     padding-top: 50px;
 }
+
+/* ============== FEATURES ======================= */
+
+.features-inner-wrapper{
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.left-features-item {
+    position: relative;
+    padding-right: 90px;
+    margin-bottom: 65px;
+    text-align: right;
+    margin-top: 35px;
+}
+
+.left-features-item-icon {
+    position: absolute;
+    right: 0;
+    top:-8px;
+    font-size: 40px;
+    color: #129CF3;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+}
+
+.left-features-item h2 {
+text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+}
+    
+.left-features-item p {
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #333;
+}
+
+.feature-iphoneimg {
+    width: 100%;
+}
+    
+.right-features-item{
+    position: relative;
+    padding-left: 120px;
+    margin-bottom: 65px;
+    margin-top: 35px;
+}
+
+.right-features-item-icon{
+    position: absolute;
+    left: 0;
+    top:-8px;
+    font-size: 40px;
+    color: #129CF3;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+}
+
+.right-features-item h2 {
+text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+  }
+    
+.right-features-item p {
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #333;
+    }
+ /* ============== PURCHASE NOW ======================= */
+
+.purchase-now {
+    background-color: #1a1a1A;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.purchase-now p {
+    color:#dfdfdf;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.btn-purchase-now,
+.btn-purchase-now:active,
+.btn-purchase-now:focus,
+.btn-purchase-now:visited
+{
+    background-color:#129CF3;
+    border:1px solid #129CF3;
+    color:#fff;
+    border-radius:3px;
+    padding:15px 35px;
+    text-transform: uppercase;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+
+
+}
+
+.btn-purchase-now:hover {
+    background-color:#127481;
+    border-color:#316890;
+}
