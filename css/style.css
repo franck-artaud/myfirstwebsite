@@ -610,4 +610,46 @@ text-transform: uppercase;
     font-size: 20px;
 }
 
+/* ============== FOOTER ======================= */  
+.footer {
+    background-color:#1a1a1A;
+    padding-bottom:35px;
+    padding-top: 35px;
+}
 
+#copyright span i {
+    font-size: 20px;
+}
+
+#copyright {
+    width: 50%;
+}
+
+#copyright p{
+color:white;
+font-weight: 400;
+font-size: 12px;
+text-transform: uppercase;
+}
+
+#copyright p a{
+text-decoration: none;
+color: aqua;
+text-transform:capitalize;
+font-size: 1Apx;
+}
+
+.scroll-top{
+    text-align:right;
+}
+
+
+.scroll-top a {
+    background-color:#129CF3;
+    padding: 20px;
+}
+
+.scroll-top a i{
+    background-color:#129CF3;
+    font-size: 30px;
+}
