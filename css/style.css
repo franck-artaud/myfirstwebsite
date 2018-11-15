@@ -318,8 +318,9 @@ text-transform: uppercase;
     
 .right-features-item{
     position: relative;
-    padding-left: 120px;
+    padding-left: 65px;
     margin-bottom: 65px;
+    text-align: left;
     margin-top: 35px;
 }
 
@@ -378,10 +379,59 @@ text-transform: uppercase;
     -o-transition: all 1s;
     -webkit-transition: all 1s;
 
-
 }
 
 .btn-purchase-now:hover {
     background-color:#127481;
     border-color:#316890;
 }
+
+/* ============== COUNTERS ======================= */
+.counters {
+    
+    background-image:url("../images/counter-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-position: 50% 50%;
+}
+
+.counters-overlay {
+    padding-top: 120px;
+    padding-bottom:120px;
+    background: rgba(0,0,0,.2)
+}
+
+.counters-item i {
+    color:#129CF3;
+    font-size:90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
