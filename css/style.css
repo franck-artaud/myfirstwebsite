@@ -55,6 +55,51 @@ p {
     
 }
 
+/* =================== NAVIGATION ====================================== */
+.navbar-default {
+    background-color:transparent;
+    border-color: #444;
+    z-index: 110px;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+
+.navbar-default .navbar-nav >li>a{
+    color: #B5B5B5;
+    font-family: "raleway", sans-serif;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.navbar-default .navbar-nav >li>a:hover{
+    color: #129CF3;
+    font-family: "raleway", sans-serif;
+    font-weight:600;
+}
+    
+
+.navbar-default .navbar-nav >li>a:focusr{
+    color: #B5B5B5;
+}
+
+.navbar-brand {
+    padding-bottom:35px;
+    
+}
+
+.navbar-brand img{
+    padding-top: 60px;
+     transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
 
 
 
